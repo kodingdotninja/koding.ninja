@@ -1,0 +1,17 @@
+{
+  "github": {
+    "silent": true
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/kodingdotninja",
+      "permanent": false
+    },
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/aUnExRdAX6",
+      "permanent": true
+    }
+  ]
+}
