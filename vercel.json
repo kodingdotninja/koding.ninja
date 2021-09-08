@@ -12,6 +12,11 @@
       "source": "/discord",
       "destination": "https://discord.gg/aUnExRdAX6",
       "permanent": true
+    },
+    {
+      "source": "/eslint",
+      "destination": "https://github.com/kodingdotninja/eslint-config-kdnj",
+      "permanent": true
     }
   ]
 }
