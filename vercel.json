@@ -17,6 +17,11 @@
       "source": "/eslint",
       "destination": "https://github.com/kodingdotninja/eslint-config-kdnj",
       "permanent": true
+    },
+    {
+      "source": "/use-toggle",
+      "destination": "https://github.com/kodingdotninja/use-toggle",
+      "permanent": true
     }
   ]
 }
