@@ -24,6 +24,11 @@
       "permanent": true
     },
     {
+      "source": "/starter",
+      "destination": "https://github.com/kodingdotninja/package-starter-typescript",
+      "permanent": true
+    },
+    {
       "source": "/use-toggle",
       "destination": "https://github.com/kodingdotninja/use-toggle",
       "permanent": true
