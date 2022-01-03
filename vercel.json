@@ -20,12 +20,12 @@
     },
     {
       "source": "/new",
-      "destination": "https://github.com/kodingdotninja/package-starter-typescript/generate",
+      "destination": "https://github.com/kodingdotninja/tstarter/generate",
       "permanent": true
     },
     {
       "source": "/starter",
-      "destination": "https://github.com/kodingdotninja/package-starter-typescript",
+      "destination": "https://github.com/kodingdotninja/tstarter",
       "permanent": true
     },
     {
