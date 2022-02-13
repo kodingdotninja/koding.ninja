@@ -2,7 +2,7 @@
 # https://render.com/docs/yaml-spec
 
 services:
-  - name: redirect
+  - name: kdnj-website
     type: web
     env: static
     routes:
