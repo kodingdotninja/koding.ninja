@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/inpyjamas/schemas/main/render.com.json
+# https://render.com/docs/yaml-spec
+
+services:
+  - name: redirect
+    type: web
+    env: static
+    routes:
+      - type: redirect
+        source: /
+        destination: https://github.com/kodingdotninja
+      - type: redirect
+        source: /discord
+        destination: https://discord.gg/aUnExRdAX6
+      - type: redirect
+        source: /eslint
+        destination: https://github.com/kodingdotninja/eslint-config-kdnj
+      - type: redirect
+        source: /new
+        destination: https://github.com/kodingdotninja/tstarter/generate
+      - type: redirect
+        source: /starter
+        destination: https://github.com/kodingdotninja/tstarter
+      - type: redirect
+        source: /use-toggle
+        destination: https://github.com/kodingdotninja/use-toggle
