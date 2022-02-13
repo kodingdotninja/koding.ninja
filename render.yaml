@@ -5,6 +5,15 @@ services:
   - name: kdnj-website
     type: web
     env: static
+    buildCommand: echo 1
+    staticPublishPath: .
+    domains:
+      - koding.ninja
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, s-maxage=1, stale-while-revalidate=59
+    pullRequestPreviewsEnabled: true
     routes:
       - type: redirect
         source: /
