@@ -25,11 +25,11 @@ services:
         source: /eslint
         destination: https://github.com/kodingdotninja/eslint-config-kdnj
       - type: redirect
-        source: /new
-        destination: https://github.com/kodingdotninja/tstarter/generate
+        source: /favicons-compiled
+        destination: https://github.com/kodingdotninja/favicons-compiled
       - type: redirect
-        source: /starter
-        destination: https://github.com/kodingdotninja/tstarter
+        source: /favicons-compiled/schema.json
+        destination: https://raw.githubusercontent.com/kodingdotninja/favicons-compiled/main/packages/src/schema.json
       - type: redirect
         source: /use-toggle
         destination: https://github.com/kodingdotninja/use-toggle
